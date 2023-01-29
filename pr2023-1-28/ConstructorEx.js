@@ -17,3 +17,5 @@ const Circle2 = new Cricle(10); // 반지름 10인 객체 생성
 console.log(Circle1.getDiameter());
 console.log(Circle2.getDiameter());
 console.log(Circle1);
+console.log(Circle2);
+console.log(Cricle);
