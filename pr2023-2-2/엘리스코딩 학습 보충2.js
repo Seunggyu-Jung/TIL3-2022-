@@ -24,7 +24,7 @@ fruit.shift; // 배열의 맨 앞의 데이터 삭제
 Math.abs(-3); // 절대값 : 3
 Math.ceil(0.3); // 올림 : 1
 Math.floor(10.9); // 내림 : 10
-Math.random(); // 임의의 수 출력 (0 ~ 999)
+Math.random(); // 임의의 수 출력 (0 ~ 1)
 
 // 문자를 숫자로 변환하는 메서드
 
