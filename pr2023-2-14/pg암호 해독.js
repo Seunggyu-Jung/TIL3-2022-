@@ -4,7 +4,7 @@
 
 function solution(cipher, code){
     let answer ='';
-    for (var i = code -1; i < cipher.length; i += code){
+    for (var i = code -1; i < cipher.length; i += code){  // 정작 뽑아내야하는 index는 -1을 해야 나옴
         answer += cipher[i];
     }
     return answer;
