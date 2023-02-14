@@ -14,7 +14,7 @@ console.log(soultion(1,1));
 console.log(soultion(1,2));
 
 
-// 삼한 연산자(응용)
+// 삼항 연산자(응용)
 
 function soultion2(num3, num4){
     var answer = num3 === num4 ? 1 : - 1; // 변수 = 매개변수1 === 매개변수2 ? true : fasle;
