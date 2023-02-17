@@ -18,7 +18,7 @@ console.log(solution(["a", "b", "c"], ["com", "b", "d", "p", "c"])) // 2
 // 초 간단식 
 
 function solution2(s1, s2) {
-    const intersection = s1.filter((x) => s2.includes(x));  // arr.include(매개변수) : 매개변수가 배열에 있는지 확인
+    const intersection = s1.filter((x) => s2.includes(x));  // arr.includes(매개변수) : 매개변수가 배열에 있는지 확인
     return intersection.length;
 }
 
