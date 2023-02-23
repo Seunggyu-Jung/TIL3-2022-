@@ -3,7 +3,7 @@ my_string에서 중복된 문자를 제거하고 하나의 문자만 남긴 문�
 */
 
 function solution(my_string) {
-    var answer = [...new Set(my_string)].join("");
+    var answer = [...new Set(my_string)].join("");  // [...new Set(arr)] : 배열에서 중복을 제거하는 방법
     return answer;
 }
 
