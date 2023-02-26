@@ -21,7 +21,7 @@ function solution(numbers, direction) {
 
 console.log(solution([4, 455, 6, 4, -1, 45, 6], "right")) // [6,  4, 455, 6, 4, -1,  45]
 
-// 초 간단식 ...numbers를 통한 전개구문과 .slice를 통한 범위 지정을 응용
+// 초 간단식 ...numbers를 통한 전개구문과 .slice를 통한 범위 지정을 응용 , slice(0 , 7) 에서 뒤의 숫자 전까지 가져온다.
 
 function solution2(numbers, direction) {
     return direction === "right"
